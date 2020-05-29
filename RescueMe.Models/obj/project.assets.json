@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "CFbFSQBT3G9K8kQZ3L7V6QrcuigUVYKh6nv3v3fcIbDWT5wUUMjeDCm7kudbM+kZNHl16sAifA7BLx15cyiDag==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\P10456342\\.nuget\\packages\\": {},
+    "C:\\Users\\P10453841\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P10456342\\source\\repos\\RescueMeCoreAPI\\RescueMe.Models\\RescueMe.Models.csproj",
+      "projectUniqueName": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj",
       "projectName": "RescueMe.Models",
-      "projectPath": "C:\\Users\\P10456342\\source\\repos\\RescueMeCoreAPI\\RescueMe.Models\\RescueMe.Models.csproj",
-      "packagesPath": "C:\\Users\\P10456342\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P10456342\\source\\repos\\RescueMeCoreAPI\\RescueMe.Models\\obj\\",
+      "projectPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj",
+      "packagesPath": "C:\\Users\\P10453841\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\P10456342\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\P10453841\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -227,10 +227,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

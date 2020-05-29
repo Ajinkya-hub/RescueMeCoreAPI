@@ -24,13 +24,17 @@ namespace RescueMeCoreAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(); // Make sure you call this previous to AddMvc
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
-
+            //services.AddCors(c =>
+            //{
+            //    c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            //});
             services.AddScoped<IMessageService, MessageService>();
             services.AddScoped<IMessageRepository, MessageRepository>();
             services.AddSignalR();
@@ -48,6 +52,7 @@ namespace RescueMeCoreAPI
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 
+            //app.UseCors(options => options.AllowAnyOrigin());
 
             if (env.IsDevelopment())
             {
@@ -60,6 +65,11 @@ namespace RescueMeCoreAPI
 
 
             app.UseHttpsRedirection();
+            app.UseCors(
+        options => options.WithOrigins("http://localhost:8082").AllowAnyMethod()
+    );
+
+
             app.UseMvc();
             app.UseSignalR(routes =>
             {
