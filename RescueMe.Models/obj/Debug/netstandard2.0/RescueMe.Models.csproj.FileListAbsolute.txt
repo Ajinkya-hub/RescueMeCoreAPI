@@ -16,3 +16,11 @@ C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\Rescu
 C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Models\obj\Debug\netstandard2.0\RescueMe.Models.csproj.CoreCompileInputs.cache
 C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Models\obj\Debug\netstandard2.0\RescueMe.Models.dll
 C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Models\obj\Debug\netstandard2.0\RescueMe.Models.pdb
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Models\bin\Debug\netstandard2.0\RescueMe.Models.deps.json
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Models\bin\Debug\netstandard2.0\RescueMe.Models.dll
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Models\bin\Debug\netstandard2.0\RescueMe.Models.pdb
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Models\obj\Debug\netstandard2.0\RescueMe.Models.csproj.CoreCompileInputs.cache
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Models\obj\Debug\netstandard2.0\RescueMe.Models.AssemblyInfoInputs.cache
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Models\obj\Debug\netstandard2.0\RescueMe.Models.AssemblyInfo.cs
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Models\obj\Debug\netstandard2.0\RescueMe.Models.dll
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Models\obj\Debug\netstandard2.0\RescueMe.Models.pdb

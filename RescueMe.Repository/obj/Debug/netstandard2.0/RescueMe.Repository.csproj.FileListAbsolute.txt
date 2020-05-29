@@ -22,3 +22,15 @@ C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\Rescu
 C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.csproj.CopyComplete
 C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.dll
 C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.pdb
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\bin\Debug\netstandard2.0\RescueMe.Repository.deps.json
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\bin\Debug\netstandard2.0\RescueMe.Repository.dll
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\bin\Debug\netstandard2.0\RescueMe.Repository.pdb
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\bin\Debug\netstandard2.0\RescueMe.Models.dll
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\bin\Debug\netstandard2.0\RescueMe.Models.pdb
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.csprojAssemblyReference.cache
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.csproj.CoreCompileInputs.cache
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.AssemblyInfoInputs.cache
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.AssemblyInfo.cs
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.csproj.CopyComplete
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.dll
+C:\Users\P10488837\Code\New folder\RescueMeCoreAPI-master\RescueMe.Repository\obj\Debug\netstandard2.0\RescueMe.Repository.pdb
