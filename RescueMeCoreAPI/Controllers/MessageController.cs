@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Mvc;
 using RescueMe.Models;
 using RescueMe.Sevices.Interface;
+using System.Text;
 
 namespace RescueMeCoreAPI.Controllers
 {
@@ -26,7 +23,7 @@ namespace RescueMeCoreAPI.Controllers
 
         [HttpPost]
         [Route("InformEmployees")]
-        public ActionResult<string> Post([FromBody] smsModel newSMS)
+        public ActionResult<string> Post([FromBody] SmsModel newSMS)
         {
             try
             {
@@ -40,11 +37,31 @@ namespace RescueMeCoreAPI.Controllers
                 };
 
                 _message.SendMessage(newSMS, Msgconfig);
-                return  "SMS Sent";
+                return "SMS Sent";
             }
             catch (Exception xcp)
             {
-                return  xcp.Message;
+                return xcp.Message;
+            }
+        }
+        [HttpPost]
+        [Route("GetUnsafeEmployee")]
+        public IActionResult Get()
+        {
+            try
+            {
+                MessageConfiguration Msgconfig = new MessageConfiguration
+                {
+                    AccountSID = _configuration.GetSection("MessageConfiguration").GetSection("accountSID").Value,
+                    AuthToken = _configuration.GetSection("MessageConfiguration").GetSection("authToken").Value,
+                };
+
+                var jsonResponse = _message.GetUnsafeEmployee(Msgconfig);
+                return new JsonResult(jsonResponse);
+            }
+            catch (Exception xcp)
+            {
+                return new JsonResult(xcp.Message);
             }
         }
     }

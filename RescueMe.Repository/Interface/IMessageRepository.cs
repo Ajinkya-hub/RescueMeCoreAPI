@@ -7,6 +7,7 @@ namespace RescueMe.Repository.Interface
 {
     public interface IMessageRepository
     {
-        bool SendMessage(smsModel user, MessageConfiguration Msgconfig);
+        bool SendMessage(SmsModel user, MessageConfiguration Msgconfig);
+        List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig);
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RescueMe.Models
 {
-    public class smsModel
+    public class SmsModel
     {
         public List<string> Numbers { get; set; }
     }

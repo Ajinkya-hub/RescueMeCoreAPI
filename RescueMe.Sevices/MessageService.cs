@@ -15,10 +15,15 @@ namespace RescueMe.Sevices
             _messageRepo = messageRepo;
         }
 
-        public bool SendMessage(smsModel message, MessageConfiguration Msgconfig)
+        public bool SendMessage(SmsModel message, MessageConfiguration Msgconfig)
         {
             return _messageRepo.SendMessage(message, Msgconfig);
         }
+
+        public List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig)
+        {
+            return _messageRepo.GetUnsafeEmployee(Msgconfig);
+        }        
 
     }
 }

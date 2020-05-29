@@ -7,6 +7,7 @@ namespace RescueMe.Sevices.Interface
 {
     public interface IMessageService
     {
-        bool SendMessage(smsModel message, MessageConfiguration Msgconfig);
+        bool SendMessage(SmsModel message, MessageConfiguration Msgconfig);
+        List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig);
     }
 }
