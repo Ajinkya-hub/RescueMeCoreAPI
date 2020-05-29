@@ -20,9 +20,9 @@ namespace RescueMe.Sevices
             return _messageRepo.SendMessage(message, Msgconfig);
         }
 
-        public List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig)
+        public List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig, int requestfor)
         {
-            return _messageRepo.GetUnsafeEmployee(Msgconfig);
+            return _messageRepo.GetUnsafeEmployee(Msgconfig, requestfor);
         }        
 
     }

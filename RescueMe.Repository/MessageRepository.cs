@@ -11,9 +11,29 @@ namespace RescueMe.Repository
 {
     public class MessageRepository : IMessageRepository
     {
-        public List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig)
+        public List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig, int requestfor)
         {
-
+            if (requestfor == 1)
+            {
+                return new List<UnsafeEmployeeModel>()
+                {
+                    new UnsafeEmployeeModel
+                    {
+                        PID = "P10456669",
+                        Name = "Employee 1",
+                        PhoneNumber = "+918055394560",
+                        Postcode = "411006",
+                        DependentLocality = "Vishrantwadi Chaow",
+                        PostTown = "Yerwada",
+                        AddressCoordinates = new AddressCoordinates()
+                        {
+                            Longitude = 73.877887,
+                            Latitude = 18.565128
+                        },
+                        W3W = "shade.fortnight.call",
+                    }
+                };
+             }
             // get the responses from Twilio account below are the test data...
             List<UnsafeEmployeeModel> unsafeEmployees = new List<UnsafeEmployeeModel>()
             {

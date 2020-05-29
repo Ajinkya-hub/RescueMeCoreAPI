@@ -46,7 +46,7 @@ namespace RescueMeCoreAPI.Controllers
         }
         [HttpPost]
         [Route("GetUnsafeEmployee")]
-        public IActionResult Get()
+        public IActionResult Get(int requestFor)
         {
             try
             {
@@ -56,7 +56,7 @@ namespace RescueMeCoreAPI.Controllers
                     AuthToken = _configuration.GetSection("MessageConfiguration").GetSection("authToken").Value,
                 };
 
-                var jsonResponse = _message.GetUnsafeEmployee(Msgconfig);
+                var jsonResponse = _message.GetUnsafeEmployee(Msgconfig, requestFor);
                 return new JsonResult(jsonResponse);
             }
             catch (Exception xcp)
