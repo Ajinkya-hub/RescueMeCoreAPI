@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using RescueMe.Repository;
 using RescueMe.Repository.Interface;
 using RescueMe.Sevices;
 using RescueMe.Sevices.Interface;
+using RescueMeCoreAPI.SignalRHubs;
 
 namespace RescueMeCoreAPI
 {
@@ -39,6 +33,7 @@ namespace RescueMeCoreAPI
 
             services.AddScoped<IMessageService, MessageService>();
             services.AddScoped<IMessageRepository, MessageRepository>();
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,8 +58,13 @@ namespace RescueMeCoreAPI
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<BroadCastHub>("/BroadCastHub");
+            });
         }
     }
 }
