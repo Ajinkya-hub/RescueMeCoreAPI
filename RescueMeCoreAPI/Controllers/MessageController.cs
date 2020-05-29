@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using RescueMe.Models;
 using RescueMe.Sevices.Interface;
 using System.Text;
+using Microsoft.AspNetCore.Cors;
 
 namespace RescueMeCoreAPI.Controllers
 {
+    //[EnableCors("AllowOrigin")]
     [Route("api/[controller]")]
     [ApiController]
     public class MessageController : ControllerBase
@@ -44,7 +46,7 @@ namespace RescueMeCoreAPI.Controllers
                 return xcp.Message;
             }
         }
-        [HttpPost]
+        [HttpGet]
         [Route("GetUnsafeEmployee")]
         public IActionResult Get(int requestFor)
         {

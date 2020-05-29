@@ -27,8 +27,8 @@ namespace RescueMe.Repository
                         PostTown = "Yerwada",
                         AddressCoordinates = new AddressCoordinates()
                         {
-                            Longitude = 73.877887,
-                            Latitude = 18.565128
+                            Longitude = 73.7560682,
+                            Latitude = 18.5530548
                         },
                         W3W = "shade.fortnight.call",
                     }

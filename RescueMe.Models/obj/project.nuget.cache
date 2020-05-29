@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/QIXZhAcuj1VivGSBrgNbvhhs8c26O6kEm4wgZfRWU9ru+bCqp1aUqTu3Ir7XaqjoyP9HHmsTOd28cOE7HvVrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

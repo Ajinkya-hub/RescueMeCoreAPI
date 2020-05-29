@@ -1285,6 +1285,7 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1589,6 +1590,7 @@
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -2819,7 +2821,6 @@
       "path": "system.reflection.typeextensions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3229,6 +3230,7 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3500,6 +3502,7 @@
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3540,6 +3543,7 @@
       "path": "system.security.cryptography.cng/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Security.Cryptography.Cng.dll",
@@ -3598,6 +3602,7 @@
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3638,7 +3643,6 @@
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll",
@@ -3654,6 +3658,7 @@
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3682,6 +3687,7 @@
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3737,7 +3743,6 @@
       "path": "system.security.principal/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4446,23 +4451,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\P10488837\\.nuget\\packages\\": {},
+    "C:\\Users\\P10453841\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Sevices\\RescueMe.Sevices.csproj",
+      "projectUniqueName": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Sevices\\RescueMe.Sevices.csproj",
       "projectName": "RescueMe.Sevices",
-      "projectPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Sevices\\RescueMe.Sevices.csproj",
-      "packagesPath": "C:\\Users\\P10488837\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Sevices\\obj\\",
+      "projectPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Sevices\\RescueMe.Sevices.csproj",
+      "packagesPath": "C:\\Users\\P10453841\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Sevices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\P10488837\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\P10453841\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4475,11 +4480,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj": {
-              "projectPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj"
+            "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj": {
+              "projectPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj"
             },
-            "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Repository\\RescueMe.Repository.csproj": {
-              "projectPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Repository\\RescueMe.Repository.csproj"
+            "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Repository\\RescueMe.Repository.csproj": {
+              "projectPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Repository\\RescueMe.Repository.csproj"
             }
           }
         }
@@ -4501,10 +4506,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

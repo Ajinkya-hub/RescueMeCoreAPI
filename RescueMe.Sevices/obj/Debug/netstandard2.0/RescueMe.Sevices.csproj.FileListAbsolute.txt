@@ -12,3 +12,17 @@ C:\Users\P10456342\source\repos\RescueMeCoreAPI\RescueMe.Sevices\bin\Debug\netst
 C:\Users\P10456342\source\repos\RescueMeCoreAPI\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.csproj.CopyComplete
 C:\Users\P10456342\source\repos\RescueMeCoreAPI\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.dll
 C:\Users\P10456342\source\repos\RescueMeCoreAPI\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.pdb
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\bin\Debug\netstandard2.0\RescueMe.Sevices.deps.json
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\bin\Debug\netstandard2.0\RescueMe.Sevices.dll
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\bin\Debug\netstandard2.0\RescueMe.Sevices.pdb
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\bin\Debug\netstandard2.0\RescueMe.Models.dll
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\bin\Debug\netstandard2.0\RescueMe.Repository.dll
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\bin\Debug\netstandard2.0\RescueMe.Models.pdb
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\bin\Debug\netstandard2.0\RescueMe.Repository.pdb
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.csprojAssemblyReference.cache
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.AssemblyInfoInputs.cache
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.AssemblyInfo.cs
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.csproj.CoreCompileInputs.cache
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.csproj.CopyComplete
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.dll
+C:\Users\P10453841\Downloads\RescueMeCoreAPI-master\RescueMeCoreAPI-master\RescueMe.Sevices\obj\Debug\netstandard2.0\RescueMe.Sevices.pdb

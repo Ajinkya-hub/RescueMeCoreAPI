@@ -6077,7 +6077,6 @@
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
@@ -8159,6 +8158,7 @@
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -10768,7 +10768,6 @@
       "path": "system.reflection.typeextensions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11203,6 +11202,7 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11516,6 +11516,7 @@
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11650,6 +11651,7 @@
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11690,7 +11692,6 @@
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll",
@@ -11739,6 +11740,7 @@
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11767,6 +11769,7 @@
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11864,7 +11867,6 @@
       "path": "system.security.principal/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12940,6 +12942,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.AspNetCore.Cors >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
@@ -12950,23 +12953,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\P10488837\\.nuget\\packages\\": {},
+    "C:\\Users\\P10453841\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMeCoreAPI\\RescueMeCoreAPI.csproj",
+      "projectUniqueName": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMeCoreAPI\\RescueMeCoreAPI.csproj",
       "projectName": "RescueMeCoreAPI",
-      "projectPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMeCoreAPI\\RescueMeCoreAPI.csproj",
-      "packagesPath": "C:\\Users\\P10488837\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMeCoreAPI\\obj\\",
+      "projectPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMeCoreAPI\\RescueMeCoreAPI.csproj",
+      "packagesPath": "C:\\Users\\P10453841\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMeCoreAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\P10488837\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\P10453841\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12979,14 +12982,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj": {
-              "projectPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj"
+            "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj": {
+              "projectPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj"
             },
-            "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Repository\\RescueMe.Repository.csproj": {
-              "projectPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Repository\\RescueMe.Repository.csproj"
+            "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Repository\\RescueMe.Repository.csproj": {
+              "projectPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Repository\\RescueMe.Repository.csproj"
             },
-            "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Sevices\\RescueMe.Sevices.csproj": {
-              "projectPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Sevices\\RescueMe.Sevices.csproj"
+            "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Sevices\\RescueMe.Sevices.csproj": {
+              "projectPath": "C:\\Users\\P10453841\\Downloads\\RescueMeCoreAPI-master\\RescueMeCoreAPI-master\\RescueMe.Sevices\\RescueMe.Sevices.csproj"
             }
           }
         }
@@ -13006,12 +13009,17 @@
             "version": "[2.1.1, )",
             "autoReferenced": true
           },
+          "Microsoft.AspNetCore.Cors": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -13026,10 +13034,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
