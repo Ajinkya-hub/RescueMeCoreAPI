@@ -1,1 +1,5 @@
 .vs/
+/RescueMe.Models/obj/Release/netstandard2.0
+/RescueMe.Repository/obj/Release/netstandard2.0
+/RescueMe.Sevices/obj/Release/netstandard2.0
+/RescueMeCoreAPI/obj/Release/netcoreapp2.1
