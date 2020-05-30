@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "CFbFSQBT3G9K8kQZ3L7V6QrcuigUVYKh6nv3v3fcIbDWT5wUUMjeDCm7kudbM+kZNHl16sAifA7BLx15cyiDag==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\P10488837\\.nuget\\packages\\": {},
+    "C:\\Users\\P10456342\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj",
+      "projectUniqueName": "C:\\Users\\P10456342\\source\\repos\\RescueMeCoreAPI\\RescueMe.Models\\RescueMe.Models.csproj",
       "projectName": "RescueMe.Models",
-      "projectPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Models\\RescueMe.Models.csproj",
-      "packagesPath": "C:\\Users\\P10488837\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P10488837\\Code\\New folder\\RescueMeCoreAPI-master\\RescueMe.Models\\obj\\",
+      "projectPath": "C:\\Users\\P10456342\\source\\repos\\RescueMeCoreAPI\\RescueMe.Models\\RescueMe.Models.csproj",
+      "packagesPath": "C:\\Users\\P10456342\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\P10456342\\source\\repos\\RescueMeCoreAPI\\RescueMe.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\P10488837\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\P10456342\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

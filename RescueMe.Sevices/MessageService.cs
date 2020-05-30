@@ -23,7 +23,11 @@ namespace RescueMe.Sevices
         public List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig, int requestfor)
         {
             return _messageRepo.GetUnsafeEmployee(Msgconfig, requestfor);
-        }        
-
+        }
+        public List<Notifications> GetNotification()
+        {
+            return _messageRepo.GetNotification();
+        }
+        
     }
 }

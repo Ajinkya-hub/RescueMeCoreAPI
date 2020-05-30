@@ -34,7 +34,9 @@ namespace RescueMe.Repository
                     }
                 };
              }
+
             // get the responses from Twilio account below are the test data...
+
             List<UnsafeEmployeeModel> unsafeEmployees = new List<UnsafeEmployeeModel>()
             {
                 new UnsafeEmployeeModel {
@@ -140,6 +142,155 @@ namespace RescueMe.Repository
             {
                 throw ex;
             }
+        }
+
+        public List<Notifications> GetNotification()
+        {
+            return new List<Notifications>()
+            {
+                new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 1 mark their status as Safe." 
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 2 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 3 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 4 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 5 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 6 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 7 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 8 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 9 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 10 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 11 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 12 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 13 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 14 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 15 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 16 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 17 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 18 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 19 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 20 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 21 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 22 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 23 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 24 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 25 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 26 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 27 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 28 mark their status as unsafe.Location has been updated on floor map."
+                },
+                 new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 29 mark their status as Safe."
+                },
+                new Notifications {
+                    Status = "Unsafe",
+                    Message = "Employee 30 mark their status as unsafe.Location has been updated on floor map."
+                },new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 31 mark their status as Safe."
+                },new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 32 mark their status as Safe."
+                },new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 33 mark their status as Safe."
+                },new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 34 mark their status as Safe."
+                },new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 35 mark their status as Safe."
+                },new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 36 mark their status as Safe."
+                },new Notifications {
+                    Status = "Safe",
+                    Message = "Employee 37 mark their status as Safe."
+                },
+            };
+
         }
     }
 }

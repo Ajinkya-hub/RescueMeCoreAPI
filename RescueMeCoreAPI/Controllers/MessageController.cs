@@ -66,5 +66,22 @@ namespace RescueMeCoreAPI.Controllers
                 return new JsonResult(xcp.Message);
             }
         }
+
+        [HttpGet]
+        [Route("GetNotification")]
+        public IActionResult GetNotification()
+        {
+            try
+            {
+                var jsonResponse = _message.GetNotification();
+                return new JsonResult(jsonResponse);
+            }
+            catch (Exception xcp)
+            {
+                return new JsonResult(xcp.Message);
+            }
+        }
+
+
     }
 }

@@ -9,5 +9,7 @@ namespace RescueMe.Repository.Interface
     {
         bool SendMessage(SmsModel user, MessageConfiguration Msgconfig);
         List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig, int requestfor);
+
+        List<Notifications> GetNotification();
     }
 }
