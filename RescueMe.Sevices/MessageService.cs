@@ -28,6 +28,11 @@ namespace RescueMe.Sevices
         {
             return _messageRepo.GetNotification();
         }
-        
+
+        public bool InformEmployeeDetails(UnsafeEmployeeModel notifications, MessageConfiguration Msgconfig)
+        {
+            return _messageRepo.InformEmployeeDetails(notifications, Msgconfig);
+        }
+
     }
 }

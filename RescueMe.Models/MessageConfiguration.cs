@@ -10,6 +10,6 @@ namespace RescueMe.Models
         public string AuthToken { get; set; }
         public string FromMobileNo { get; set; }
         public string MobileMessageText { get; set; }
-
+        public string RescueMessageText { get; set; }
     }
 }

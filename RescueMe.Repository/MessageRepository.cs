@@ -50,6 +50,7 @@ namespace RescueMe.Repository
                     {
                         Longitude = 73.883518,
                         Latitude  = 18.562729
+
                     },
                     W3W = "rationed.weedy.partied",
                     //populate other properties  
@@ -142,6 +143,24 @@ namespace RescueMe.Repository
             {
                 throw ex;
             }
+        }
+
+        public bool InformEmployeeDetails(UnsafeEmployeeModel notifications, MessageConfiguration Msgconfig)
+        {
+            var MobileMessageText = Msgconfig.RescueMessageText;
+            //foreach (var number in user.Numbers)
+            //{
+            //    TwilioClient.Init(Msgconfig.AccountSID, Msgconfig.AuthToken);
+
+            //    var message = MessageResource.Create(
+            //        body: Msgconfig.MobileMessageText,
+            //        messagingServiceSid: null,
+            //        from: new PhoneNumber(Msgconfig.FromMobileNo),
+            //        to: new PhoneNumber(number)
+            //    );
+            //}
+
+            return true;
         }
 
         public List<Notifications> GetNotification()

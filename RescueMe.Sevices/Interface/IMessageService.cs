@@ -10,5 +10,6 @@ namespace RescueMe.Sevices.Interface
         bool SendMessage(SmsModel message, MessageConfiguration Msgconfig);
         List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig, int requestfor);
         List<Notifications> GetNotification();
+        bool InformEmployeeDetails(UnsafeEmployeeModel notifications, MessageConfiguration Msgconfig);
     }
 }
