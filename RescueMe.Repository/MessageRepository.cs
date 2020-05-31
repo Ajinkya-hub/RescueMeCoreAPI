@@ -148,17 +148,20 @@ namespace RescueMe.Repository
         public bool InformEmployeeDetails(UnsafeEmployeeModel notifications, MessageConfiguration Msgconfig)
         {
             var MobileMessageText = Msgconfig.RescueMessageText;
-            //foreach (var number in user.Numbers)
-            //{
-            //    TwilioClient.Init(Msgconfig.AccountSID, Msgconfig.AuthToken);
+            MobileMessageText = MobileMessageText.Replace("{Name}", notifications.Name);
+            MobileMessageText = MobileMessageText.Replace("{PhoneNumber}", notifications.PhoneNumber);
+            MobileMessageText = MobileMessageText.Replace("{DependentLocality}", notifications.DependentLocality);
+            MobileMessageText = MobileMessageText.Replace("{Latitude}", notifications.AddressCoordinates.Latitude.ToString());
+            MobileMessageText = MobileMessageText.Replace("{Longitude}", notifications.AddressCoordinates.Longitude.ToString());
+            
+            TwilioClient.Init(Msgconfig.AccountSID, Msgconfig.AuthToken);
 
-            //    var message = MessageResource.Create(
-            //        body: Msgconfig.MobileMessageText,
-            //        messagingServiceSid: null,
-            //        from: new PhoneNumber(Msgconfig.FromMobileNo),
-            //        to: new PhoneNumber(number)
-            //    );
-            //}
+            var message = MessageResource.Create(
+                body: MobileMessageText,
+                messagingServiceSid: null,
+                from: new PhoneNumber(Msgconfig.FromMobileNo),
+                to: new PhoneNumber("+917045642656")
+            );
 
             return true;
         }
