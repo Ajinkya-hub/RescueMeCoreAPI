@@ -24,11 +24,11 @@ namespace RescueMe.Repository
                         PhoneNumber = "+918055394560",
                         Postcode = "411021",
                         DependentLocality = "Pashan",
-                        PostTown = "Sus Gaon",
+                        PostTown = "The Regent's Park",
                         AddressCoordinates = new AddressCoordinates()
                         {
-                            Longitude = 73.7560682,
-                            Latitude = 18.5530548
+                             Latitude= 51.533793,
+                            Longitude  = -0.1525447
                         },
                         W3W = "shade.fortnight.call",
                     }
