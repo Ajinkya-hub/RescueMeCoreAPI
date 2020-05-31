@@ -45,7 +45,7 @@ namespace RescueMe.Repository
                     PhoneNumber = "+919561423305",
                     Postcode = "411006",
                     DependentLocality = "commerzone It Park",
-                    PostTown = "Yerwada",
+                    PostTown = "London",
                     AddressCoordinates = new AddressCoordinates()
                     {
                         Longitude = 73.883518,
@@ -61,7 +61,7 @@ namespace RescueMe.Repository
                     PhoneNumber = "+917045642656",
                     Postcode = "411006",
                     DependentLocality = "commerzone It Park",
-                    PostTown = "Yerwada",
+                    PostTown = "London",
                     AddressCoordinates = new AddressCoordinates()
                     {
                         Latitude = 18.562729,
@@ -76,7 +76,7 @@ namespace RescueMe.Repository
                     PhoneNumber = "+918055394560",
                     Postcode = "411006",
                     DependentLocality = "commerzone It Park",
-                    PostTown = "Yerwada",
+                    PostTown = "London",
                     AddressCoordinates = new AddressCoordinates()
                     {
                        Longitude = 73.883547,
@@ -91,7 +91,7 @@ namespace RescueMe.Repository
                     PhoneNumber = "+918051423305",
                     Postcode = "411006",
                     DependentLocality = "commerzone It Park",
-                    PostTown = "Yerwada",
+                    PostTown = "London",
                     AddressCoordinates = new AddressCoordinates()
                     {
                         Latitude = 18.562702,
@@ -106,7 +106,7 @@ namespace RescueMe.Repository
                     PhoneNumber = "+919561423305",
                     Postcode = "411006",
                     DependentLocality = "commerzone It Park",
-                    PostTown = "Yerwada",
+                    PostTown = "London",
                     AddressCoordinates = new AddressCoordinates()
                     {
                         Latitude = 18.562675,
