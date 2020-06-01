@@ -11,5 +11,7 @@ namespace RescueMe.Repository.Interface
         List<UnsafeEmployeeModel> GetUnsafeEmployee(MessageConfiguration Msgconfig, int requestfor);
 
         List<Notifications> GetNotification();
+
+        bool InformEmployeeDetails(UnsafeEmployeeModel notifications, MessageConfiguration Msgconfig);
     }
 }

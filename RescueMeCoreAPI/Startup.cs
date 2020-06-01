@@ -66,8 +66,8 @@ namespace RescueMeCoreAPI
 
             app.UseHttpsRedirection();
             app.UseCors(
-        options => options.WithOrigins("http://localhost:8082").AllowAnyMethod()
-    );
+                options => options.WithOrigins("http://localhost:8080").AllowAnyMethod()
+            );
 
 
             app.UseMvc();

@@ -82,6 +82,30 @@ namespace RescueMeCoreAPI.Controllers
             }
         }
 
+        [HttpPost]
+        [Route("InformEmployeeDetails")]
+        public IActionResult InformEmployeeDetails([FromBody] UnsafeEmployeeModel Empdetails)
+        {
+            try
+            {
+
+                MessageConfiguration Msgconfig = new MessageConfiguration
+                {
+                    AccountSID = _configuration.GetSection("MessageConfiguration").GetSection("accountSID").Value,
+                    AuthToken = _configuration.GetSection("MessageConfiguration").GetSection("authToken").Value,
+                    FromMobileNo = _configuration.GetSection("MessageConfiguration").GetSection("fromMobileNo").Value,
+                    RescueMessageText = _configuration.GetSection("MessageConfiguration").GetSection("RescueMessageText").Value
+                };
+
+                _message.InformEmployeeDetails(Empdetails, Msgconfig);
+                return new JsonResult( "SMS Sent");
+            }
+            catch (Exception xcp)
+            {
+                return new JsonResult(xcp.Message);
+            }
+        }
+
 
     }
 }
